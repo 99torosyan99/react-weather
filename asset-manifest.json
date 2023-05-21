@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/react-weather/static/css/main.91695234.css",
+    "main.js": "/react-weather/static/js/main.dda31d4d.js",
+    "static/media/partly-cloudy-day.jpg": "/react-weather/static/media/partly-cloudy-day.744733eb91563b91f15f.jpg",
+    "static/media/wind.jpg": "/react-weather/static/media/wind.e5d6db0e5ae293ff2bef.jpg",
+    "static/media/rain-night.jpg": "/react-weather/static/media/rain-night.49c272eec58e70b4898c.jpg",
+    "static/media/clear-night.jpg": "/react-weather/static/media/clear-night.87634baa2f63ff9d0496.jpg",
+    "static/media/clear-day.jpg": "/react-weather/static/media/clear-day.fb84f58f476ddc82d50d.jpg",
+    "static/media/fog.jpg": "/react-weather/static/media/fog.964ccea95d8ce307d51e.jpg",
+    "static/media/rain.jpg": "/react-weather/static/media/rain.0c24ba38822c642a0ee1.jpg",
+    "static/media/wind-night.jpg": "/react-weather/static/media/wind-night.b7feb874eddc30a7bd48.jpg",
+    "static/media/snow-night.jpg": "/react-weather/static/media/snow-night.2f6f48023db1689e7a73.jpg",
+    "static/media/fog-night.jpg": "/react-weather/static/media/fog-night.907e5ce3bc1c58e2ede9.jpg",
+    "static/media/snow.jpg": "/react-weather/static/media/snow.4119f1f6fe892c70271f.jpg",
+    "static/media/cloudy-night.jpg": "/react-weather/static/media/cloudy-night.0e3c5957efe2c47c4538.jpg",
+    "static/media/cloudy.jpg": "/react-weather/static/media/cloudy.6c31f88bd605d1d0fc9d.jpg",
+    "static/media/partly-cloudy-night.jpg": "/react-weather/static/media/partly-cloudy-night.d3a759a7e0cee6da16d2.jpg",
+    "index.html": "/react-weather/index.html",
+    "main.91695234.css.map": "/react-weather/static/css/main.91695234.css.map",
+    "main.dda31d4d.js.map": "/react-weather/static/js/main.dda31d4d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.91695234.css",
+    "static/js/main.dda31d4d.js"
+  ]
+}
