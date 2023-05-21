@@ -1,38 +1,69 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+
+
+.clear-day {
+    background-image: url('./img/clear-day.jpg');
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  
+  .clear-night {
+    background-image: url('./img/clear-night.jpg');
   }
-  to {
-    transform: rotate(360deg);
+  
+  .partly-cloudy-day {
+    background-image: url('./img/partly-cloudy-day.jpg');
   }
-}
+  
+  .partly-cloudy-night {
+    background-image: url('./img/partly-cloudy-night.jpg');
+  }
+  
+  .rain {
+    background-image: url('./img/rain.jpg');
+  }
+  
+  .rain-night {
+    background-image: url('./img/rain-night.jpg');
+  }
+  
+  .snow {
+    background-image: url('./img/snow.jpg');
+  }
+  
+  .snow-night {
+    background-image: url('./img/snow-night.jpg');
+  }
+  
+  .fog {
+    background-image: url('./img/fog.jpg');
+  }
+  
+  .fog-night {
+    background-image: url('./img/fog-night.jpg');
+  }
+  
+  .wind {
+    background-image: url('./img/wind.jpg');
+  }
+  
+  .wind-night {
+    background-image: url('./img/wind-night.jpg');
+  }
+  
+  .cloudy {
+    background-image: url('./img/cloudy.jpg');
+  }
+  
+  .cloudy-night {
+    background-image: url('./img/cloudy-night.jpg')
+  }
