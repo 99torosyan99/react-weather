@@ -97,6 +97,7 @@
 .info__gradus {
   font-size: 50px;
   white-space: nowrap;
+  cursor: pointer;
 }
 
 @media (max-width: 450px) {
