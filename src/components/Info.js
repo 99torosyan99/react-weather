@@ -30,8 +30,8 @@ export default function Info({ info }) {
     if (info.time) {
       scrollPosition();
     }
-  });
-  console.log(info);
+  },info.time);
+ console.log(info,'info')
   return (
     <div className="info">
       <div className="info-content">
@@ -107,27 +107,4 @@ export default function Info({ info }) {
   );
 }
 
-// <div className="info-content-center">
-{
-  /* <div className="info-content__gradus"> </div>
-  {show ? info.tempC : info.tempF}
-  <sup>
-    <span
-      onClick={() => setShow(true)}
-      className={show ? null : "disable"}
-    >
-      °C |
-    </span>
-    <span
-      onClick={() => setShow(false)}
-      className={show ? "disable" : null}
-    >
-      °F
-    </span>
-  </sup>
-<img src={`./icons/${info.icon}.svg`} className="info-content__icon" />
-<div className="info-content__other">
-  <p>{info.main}</p>
-</div>
-</div> */
-}
+

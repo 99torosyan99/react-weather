@@ -13,13 +13,16 @@
 .form__button {
   cursor: pointer;
   font-size: 20px;
-  background-color: #ffffff;
+  background-color: #191933ad;
+  color: #fff;
   border-radius: 50%;
 }
 
 .form__text {
   text-align: center;
   border-radius: 15px;
+  color: #ffffff;
+  background-color: #191933ad;
   flex-grow: 1;
 }
 
