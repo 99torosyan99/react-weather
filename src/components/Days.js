@@ -17,6 +17,7 @@ export default function ({ info, setInfo }) {
       {info.days.map((elem, index) => {
         return (
           <div
+          key={index}
             className={`days-item${active == index ? " active" : ""}`}
             onClick={() => {
               if (index == 0) {

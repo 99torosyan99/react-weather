@@ -31,7 +31,7 @@ export default function Info({ info }) {
       scrollPosition();
     }
   },info.time);
- console.log(info,'info')
+
   return (
     <div className="info">
       <div className="info-content">
@@ -83,9 +83,10 @@ export default function Info({ info }) {
           </div>
         </div>
         <div className="info-content-bottom" ref={ref}>
-          {info.list.map((elem) => {
+          {info.list.map((elem,index) => {
             return (
               <div
+              key={index}
                 className={`info-content-bottom__item${
                   info.time &&
                   info.time.slice(0, 2) == elem.datetime.slice(0, 2)
